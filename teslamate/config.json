@@ -1,6 +1,6 @@
 {
   "name": "TeslaMate",
-  "version": "0.32.0",
+  "version": "0.33.0",
   "slug": "teslamate",
   "description": "A self-hosted data logger for your Tesla.",
   "arch": [
@@ -12,6 +12,7 @@
   "startup": "application",
   "boot": "auto",
   "ingress": true,
+  "init": false,
   "panel_icon": "mdi:car-connected",
   "panel_title": "TeslaMate",
   "options": {
