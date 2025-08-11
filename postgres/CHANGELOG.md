@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0
+## 2.0.0
 
 **BREAKING CHANGE**
 
@@ -18,7 +18,6 @@ YOU MUST RESTORE YOUR DATA AFTER UPDATING
 
 Changes:
 
-* Use /data for persistent storage
-* Postgres 12.5
+* Postgres 17.5
 
-[Full Changelog](https://github.com/matt-FFFFFF/hassio-addon-postgres/blob/main/CHANGELOG-FULL.md)
+[Full Changelog](https://github.com/xaviergriffon/hassio-addon-postgres/blob/main/CHANGELOG-FULL.md)

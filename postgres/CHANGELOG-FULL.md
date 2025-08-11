@@ -1,5 +1,25 @@
 # Changelog
 
+## 2.0.0
+
+**BREAKING CHANGE**
+
+YOU MUST BACKUP YOU DATA BEFORE APPLYING THIS UPDATE
+
+YOU MUST RESTORE YOUR DATA AFTER THIS UPDATE
+
+1. Stop any connections to the database, e.g. stop the TeslaMate addon
+2. Expose your postgres instance to the local network using the network options in the addon configuration. Use port 5432.
+3. Use pgAdmin to create a backup
+4. Update the addon
+5. Restore your data using pgAdmin
+6. Disable the external network connection in teh addin configuration
+7. Re-start TeslaMate
+
+Changes:
+
+* Postgres 17.5
+
 ## 1.0.0
 
 **BREAKING CHANGE**

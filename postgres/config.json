@@ -1,6 +1,6 @@
 {
   "name": "PostgreSQL",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "slug": "postgres",
   "description": "PostgreSQL an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.",
   "arch": [
@@ -28,6 +28,6 @@
     "password": "str",
     "database": "str"
   },
-  "url": "https://github.com/matt-FFFFFF/hassio-addon-postgres/blob/main/postgres/README.md",
-  "image": "mattffffff/postgres-{arch}"
+  "url": "https://github.com/xaviergriffon/hassio-addon-postgres/blob/main/postgres/README.md",
+  "image": "linuxav/postgres-{arch}"
 }
